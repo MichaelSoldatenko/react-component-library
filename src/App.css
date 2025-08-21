@@ -1,0 +1,39 @@
+.small-btns {
+  width: 33px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: solid 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.medium-btns {
+  background-color: transparent;
+  border: solid 1px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+input {
+  padding: 3px 5px 3px 5px;
+  width: 250px;
+  height: 30px;
+  box-sizing: border-box;
+  border: solid 1px;
+  border-radius: 2px;
+}
+
+#toast-div {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  min-width: 200px;
+}

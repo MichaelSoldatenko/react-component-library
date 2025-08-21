@@ -21,17 +21,7 @@ const ToastDemo = ({
 
   return (
     <>
-      <button
-        onClick={() => setVisible(true)}
-        style={{
-          backgroundColor: "transparent",
-          border: "solid 1px",
-          cursor: "pointer",
-          width: "100px",
-          height: "30px",
-          borderRadius: "3px",
-        }}
-      >
+      <button onClick={() => setVisible(true)} className="medium-btns">
         Show Toast
       </button>
       {visible && (

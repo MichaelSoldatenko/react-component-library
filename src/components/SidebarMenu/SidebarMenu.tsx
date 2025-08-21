@@ -63,6 +63,8 @@ export const SidebarMenu: React.FC<SidebarMenuProps> = ({ items, onClose }) => {
           <button
             onClick={onClose}
             style={{
+              width: "33px",
+              height: "30px",
               backgroundColor: "transparent",
               border: "solid 1px",
               borderRadius: "2px",
@@ -84,7 +86,8 @@ export const SidebarMenu: React.FC<SidebarMenuProps> = ({ items, onClose }) => {
                   style={{
                     cursor: "pointer",
                     fontWeight: "bold",
-                    marginTop: "10px",
+                    fontSize: "20px",
+                    marginTop: "15px",
                   }}
                 >
                   {item.label}

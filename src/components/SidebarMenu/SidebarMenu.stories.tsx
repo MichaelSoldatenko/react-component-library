@@ -24,17 +24,7 @@ const SidebarDemo = () => {
 
   return (
     <>
-      <button
-        onClick={() => setOpen(true)}
-        style={{
-          width: "100px",
-          height: "30px",
-          cursor: "pointer",
-          backgroundColor: "transparent",
-          borderRadius: "3px",
-          border: "solid 1px",
-        }}
-      >
+      <button onClick={() => setOpen(true)} className="medium-btns">
         Open Sidebar
       </button>
       {open && <SidebarMenu items={items} onClose={() => setOpen(false)} />}
